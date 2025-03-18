@@ -2,7 +2,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.(js|.jsx|.ts|.tsx)/,
+        test: /\.(js|jsx|ts|tsx)/,
         exclude: /\.json/,
         use: "babel-loader",
       },
@@ -18,6 +18,9 @@ export default {
   },
   watch: true,
   watchOptions: { aggregateTimeout: 1000 },
+  resolve: {
+    extensions: [".js", ".jsx", ".ts", ".tsx"],
+  },
   mode: "development",
   devtool: "source-map",
 };
