@@ -37745,7 +37745,7 @@ __webpack_require__.r(__webpack_exports__);
 function Navbar() {
   let rootPath = "";
   const domain = window.location.hostname;
-  if (domain === "rolazar.github.io") rootPath = "/react-navigation";
+  if (domain === "rolazar.github.io") rootPath = "/react-navigation-ts";
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
     className: "nav nav-tabs bg-dark"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.NavLink, {
@@ -38206,7 +38206,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let rootPath = "";
 const hostname = window.location.hostname;
-if (hostname === "rolazar.github.io") rootPath = "/react-navigation";
+if (hostname === "rolazar.github.io") rootPath = "/react-navigation-ts";
 const react = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
 react.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_HandleRefresh__WEBPACK_IMPORTED_MODULE_7__.HandleRefresh, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Header__WEBPACK_IMPORTED_MODULE_5__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
   path: `${rootPath}/`,
