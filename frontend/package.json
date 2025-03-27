@@ -1,4 +1,14 @@
 {
+  "name": "react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.751.0",
     "@aws-sdk/lib-dynamodb": "^3.751.0",
@@ -12,16 +22,6 @@
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
   },
-  "name": "react",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "npx webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@babel/preset-typescript": "^7.26.0",
     "@types/react": "^19.0.11",
@@ -30,6 +30,7 @@
     "sass": "^1.86.0",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "webpack-dev-server": "^5.2.1"
   }
 }

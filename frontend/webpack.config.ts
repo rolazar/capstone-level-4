@@ -16,8 +16,8 @@ export default {
       },
     ],
   },
-  watch: true,
-  watchOptions: { aggregateTimeout: 1000 },
+  // watch: true,
+  // watchOptions: { aggregateTimeout: 1000 },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
