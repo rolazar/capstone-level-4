@@ -3,6 +3,7 @@
     "start": "npm run close-port && npm run start-server",
     "build": "npm run open-tab && npm run start-build",
     "test": "npx jest ./src/modules/addition.test.ts",
+    "deploy": "npx webpack --mode=production",
     "------": "------------------------------------------------",
     "open-tab": "npx open-cli http://localhost:8000",
     "close-port": "npx kill-port 8000",
