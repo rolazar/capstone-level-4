@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx webpack server",
+    "start": "npx kill-port 8080 && npx webpack server",
     "test": "npx jest",
     "build": "npx webpack --mode=production",
     "deploy": "git push"
@@ -28,6 +28,7 @@
     "@types/react-dom": "^19.0.4",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
+    "kill-port": "^2.0.1",
     "sass": "^1.86.0",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
