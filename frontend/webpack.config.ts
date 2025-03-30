@@ -2,8 +2,8 @@ export default {
   module: {
     rules: [
       {
-        test: /\.(js|jsx|ts|tsx)/,
-        exclude: /\.json/,
+        test: /\.(js|jsx|ts|tsx)$/,
+        // exclude: /\.json/,
         use: "babel-loader",
       },
       {
