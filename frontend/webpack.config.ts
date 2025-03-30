@@ -1,3 +1,5 @@
+import { Configuration } from "webpack";
+
 export default {
   module: {
     rules: [
@@ -23,4 +25,7 @@ export default {
   },
   mode: "development",
   devtool: "source-map",
-};
+  devServer: {
+    historyApiFallback: true,
+  },
+} as Configuration;

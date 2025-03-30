@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "module": "Preserve",
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "lib": [
+      "ESNext", // Enable Promise
+      "dom" // Enable window and document objects
+    ]
   }
 }
